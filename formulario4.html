@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!--   sergio benito 23/10/17-->
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>formulario4</title>
 </head>
 <body>
 
-    <form method="get"   >
+    <form method="get"  action="." >
       <fieldset>
   <legend>Únete</legend>
-       <label>Nuestros socios tienen muchas ventajas . ¡Y es gratis!</label>
+       <p>Nuestros socios tienen muchas ventajas . ¡Y es gratis!</p>
         <ul>
-            <li>Nombre y apellidos: <input type="text" name="nombre" size="40"/></li>
+           
+            <li><label>Nombre y apellidos: <input type="text" name="nombre" size="40"/></label></li>
              <li> Edad:
 
               <input name="Edad" type="text" list="Edad">
@@ -22,12 +24,10 @@
                     <option value="Entre 60 y 80"></option>
                     <option value="Mas 80"></option>
                   </datalist></li>
-             <li>comentario: <textarea name="texto" rows="4" cols="20">"Escribe aqui tu contraseña"</textarea></li>
+             <li><label>comentario: <textarea name="texto" rows="4" cols="20">"Escribe aqui tu contraseña"</textarea></label></li>
 
         </ul>
-         <p>
-
-        </p>
+        
         </fieldset>
         <input type="submit" value="Enviar" />
     </form>
