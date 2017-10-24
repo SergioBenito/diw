@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulario de solicitud de zapatos</h1>
+    <form method="get">
+        <fieldset>
+            <legend>Informacion Personal</legend>
+
+            <ul>
+                <li>Nombre<input type="text" name="nombre" size="40" autofocus="true" required="required" /></li>
+                <li>Email<input type="email" name="email" size="40" autofocus="true" required="required" /></li>
+                <li>Telefono<input type="number" name="telefno" size="40" autofocus="true" required="required" /></li>
+                <li> Cunetanos tu historia:<textarea name="texto" rows="4" cols="20" placeholder="No mas de 300 caracteres"></textarea></li>
+            </ul>
+
+        </fieldset>
+    </form>
+
+    <h2> Diseña tus zapatos</h2>
+    <form method="get">
+        <fieldset>
+
+            <legend>diseño personalizado</legend>
+
+
+           <fieldset>
+            <legend>Color (elige uno);</legend>
+            <ul>
+
+                <li><input type="radio" name="p1" value="1" /> Rojo</li>
+                <li> <input type="radio" name="p1" value="2" /> Azul</li>
+                <li><input type="radio" name="p1" value="3" /> Negro </li>
+                <li><input type="radio" name="p1" value="3" /> Plata </li>
+
+            </ul>
+            </fieldset>
+
+             <fieldset>
+            <legend>   Caracteristicas (elige las que quieras) </legend>
+
+                <ul>
+
+                <li><input type="checkbox" name="p1" value="1" />con cordones</li>
+                <li> <input type="checkbox" name="p1" value="2" /> Logo Metalico</li>
+                <li><input type="checkbox" name="p1" value="3" /> Ligeras</li>
+                <li><input type="checkbox" name="p1" value="3" /> Con musica</li>
+
+            </ul>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend> Tamaño</legend>
+                <label>Tamaño de zapatos: <input type="number" name="nota" min="0"  /></label>
+            </fieldset>
+
+
+        </fieldset>
+    </form>
+    <input type="submit" value="Solicitar" />
+    <input type="reset" value="Restablecer" />
+</body>
+
+</html>
