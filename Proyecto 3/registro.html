@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <style>
+        form {
+            width: 15em;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="Logo.png" alt="logotipo"></a>
+
+    </header>
+    <form method="get">
+
+        <br>
+        <br>
+        <fieldset>
+
+            <legend>
+                <h3>Introduce tus datos</h3>
+            </legend>
+
+
+            <ul>
+               <li>Nombre: <input type="text" name="nombre" size="20"></li></label>
+                <label><li>Apellidos: <input type="text" name="apellidos" size="20"></li></label>
+                <label><li>DNI: <input type="text" name="dni" size="20" /></li></label>
+                <label><li>Email: <input type="email" name="Email" size="20" /></li></label>
+                <label><li>Contraseña: <input type="password" name="contraseña" size="20" /></li></label>
+                <label><li>Repetir contraseña: <input type="password" name="recontraseña" size="20" /></li></label>
+                <label><li>Teléfono: <input type="tel" name="telefono" size="20" /></li></label>
+                <li><label><input type="radio" name="profalum" value="p" />Profesor</label></li>
+                <li><label><input type="radio" name="profalum" value="a"/>Alumno</label></li>
+                <br> (Al seleccionar uno se habilita la seleccion de materia.)
+                <br>
+                <br> (Profesor) Modulo a impartir: <select name="menu">
+			  <option value="DAW">DAW</option>
+			  <option value="DAM">DAM</option>
+			</select>
+                <br> (Alumno) Modulo a cursar: <select name="menu">
+			  <option value="DAW">DAW</option>
+			  <option value="DAM">DAM</option>
+			</select>
+
+            </ul>
+
+        </fieldset>
+
+        <br>
+
+        <a href="index.html"><input type="button" name="enviar" value="Enviar y siguiente" /></a>
+        <a href="registro.html"><input type="button" name="limpiar" value="Restablecer" /></a>
+
+    </form>
+
+</body>
+
+</html>
